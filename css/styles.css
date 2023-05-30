@@ -803,6 +803,8 @@ img {
     justify-content: center;
     fill: transparent;
 }
+.mark-svg {
+}
 
 .overlay-relative{
     position: relative;
