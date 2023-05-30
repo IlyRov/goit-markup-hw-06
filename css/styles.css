@@ -806,6 +806,11 @@ img {
     justify-content: center;
     fill: transparent;
 }
+.label-privacy:checked + .modal-privacy, .modal-span {
+    border: none;
+    background-color: #404bbf;
+    fill: #ffffff;
+}
 .mark-svg {
 }
 .modal-link {
