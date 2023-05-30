@@ -617,9 +617,9 @@ img {
 }
 .footer-form {
     display: flex;
+    gap: 24px;
 }
 .footer-form-label {
-    gap: 24px;
 }
 .footer-form-input {
     width: 264px;
