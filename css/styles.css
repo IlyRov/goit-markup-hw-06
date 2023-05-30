@@ -806,7 +806,7 @@ img {
     justify-content: center;
     fill: transparent;
 }
-.label-privacy:checked + .modal-privacy, .modal-span {
+.privacy-policy:checked+.label-privacy>.modal-span {
     border: none;
     background-color: #404bbf;
     fill: #ffffff;
