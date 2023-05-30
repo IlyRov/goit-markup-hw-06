@@ -725,6 +725,9 @@ img {
     color: #2e2f42;
     margin-bottom: 16px;
 }
+.modal-form-div {
+    margin-bottom: 8px;
+}
 .modal-form-label {
     font-size: 12px;
     line-height: 1.17;
