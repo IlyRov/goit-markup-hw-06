@@ -608,7 +608,7 @@ img {
         margin-bottom: 16px;
 }
 .social-div {
-    margin-right: 120px;
+    margin-right: 80px;
 }
 .subscribe-p {
     margin-bottom: 16px;
@@ -749,7 +749,8 @@ img {
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-form-input:focus {
+.modal-form-input:focus,
+.modal-form-input:hover {
     border-color: #4D5AE5;
 }
 .modal-input-svg {
@@ -760,6 +761,9 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-input:focus+.modal-input-svg {
+    fill: #4D5AE5;
+}
+.modal-form-input:hover+.modal-input-svg {
     fill: #4D5AE5;
 }
 .comment-div {
@@ -780,7 +784,8 @@ img {
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.text-area:focus {
+.text-area:focus,
+.text-area:hover {
     border-color: #4D5AE5;
 }
 .modal-privacy {
@@ -795,6 +800,10 @@ img {
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
+.label-privacy:hover,
+.label-privacy:focus{
+    color: #4D5AE5;
+}
 .modal-span {
     width: 16px;
     height: 16px;
@@ -805,6 +814,10 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+.modal-span:hover,
+.modal-span:focus{
+    border-color: #4D5AE5;
 }
 .privacy-policy:checked+.label-privacy>.modal-span {
     border: none;
